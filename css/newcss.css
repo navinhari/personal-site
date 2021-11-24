@@ -8,13 +8,15 @@ h1{
 }
 h2{
     font-family: 'Montserrat', sans-serif;
+    color:rgb(255, 0, 0);
 }
 h3{
     font-family: 'Montserrat', sans-serif;
+    color:rgb(17, 0, 255);
 }
 
 .container{
-    background-color:rgb(113, 255, 172);
+    background-color:rgb(252, 142, 142);
     text-align: center;
     padding:10% 5% 0% 5%;margin:0;
     color:rgb(0, 0, 0);
