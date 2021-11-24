@@ -18,11 +18,25 @@ h1{
 h2{
     font-family: 'Montserrat', sans-serif;
     color: #007777;
+    
+}
+@media screen and (max-width:995px){
+    h2{
+        font-size: 50px;    
+    }
 }
 h3{
     font-family: 'Montserrat', sans-serif;
     color: #007777;
 }
+@media screen and (max-width:995px){
+    h3{
+        font-size: 20px;
+    }
+}
+
+
+
 .fullcontainer{
     background-color: rgb(224, 253, 253);
     
@@ -32,7 +46,7 @@ h3{
        width:100%;
     }
     .bottom-cloud{
-       width:5%;     
+       width:25%;     
     }
     .top-cloud{
         width:25%;
@@ -47,9 +61,7 @@ h3{
         text-align: right;margin-right:20px
        
     }
-    .respic{
-        
-    }
+    
     
      
 }
@@ -107,6 +119,12 @@ span{
 .skill-row p{
 line-height: 2;
 }
+@media  screen and (max-width:995px){
+    .skill-row{
+        width:80%;
+    }
+    
+}
 
 
 
@@ -120,6 +138,9 @@ line-height: 2;
    
     
 }
+
+
+    
 .respic{
     float:left;
     margin-right:30px;
@@ -129,12 +150,16 @@ line-height: 2;
     float:right;
     margin-left:30px;
 }
+
+  
 .padimg{
     padding-top:0px
 }
 
 
-
+p{
+    font-family:'Merriweather', serif ;
+}
 
 .propic{
     margin-top:80px
@@ -207,3 +232,5 @@ hr{
     text-decoration: none;
  }
    
+
+
